@@ -20,10 +20,11 @@
 
 require_once(plugin_dir_path( __FILE__ ) . '/config/constants.php');
 require_once(plugin_dir_path(__FILE__) . '/php/players/player-post-type.php');
+require_once(plugin_dir_path(__FILE__) . '/php/sponsors/sponsor-post-type.php');
 
 function usmp_admin_styles(){
   global $typenow;
-  if ($typenow == 'usmp_player') {
+  if ($typenow == 'usmp_player' || $typenow == 'usmp_sponsor') {
     wp_enqueue_style('usmp_meta_box_styles', plugin_dir_url(__FILE__) . '/assets/css/meta-box-styles.css');
   }
 }

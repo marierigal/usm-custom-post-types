@@ -21,3 +21,12 @@ set_constant('PLAYER_POSITIONS', array(
   'winger'       => __('Winger', 'usm-plugin'),        // Ailier
   'full-back'    => __('Full Back', 'usm-plugin'),     // Arrière
 ));
+
+set_constant('SPONSOR_ENGAGEMENT_LEVELS', array(
+  'privilege'        => __('Privilege', 'usm-plugin'),      // Privilège
+  'first-rower'      => __('First Rower', 'usm-plugin'),    // 1ère Ligne
+  'second-rower'     => __('Second Rower', 'usm-plugin'),   // 2ème Ligne
+  'third-rower'      => __('Third Rower', 'usm-plugin'),    // 3ème Ligne
+  'centre'           => __('Centre', 'usm-plugin'),         // 3/4 Centre
+  'green-and-black'  => __('Green & Black', 'usm-plugin'),  // Vert & Noir
+));
