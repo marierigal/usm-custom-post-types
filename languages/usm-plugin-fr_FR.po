@@ -1,0 +1,161 @@
+# Copyright (C) 2023 Marie Rigal
+# This file is distributed under the GNU General Public License v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: USM Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/usm-plugin\n"
+"POT-Creation-Date: 2023-01-22T22:30:15+00:00\n"
+"PO-Revision-Date: 2023-01-22 23:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: usm-plugin\n"
+
+#. Plugin Name of the plugin
+msgid "USM Plugin"
+msgstr "USM Plugin"
+
+#. Description of the plugin
+msgid "Custom post types for the USM website"
+msgstr "Types d’article personnalisé pour le site web USM"
+
+#. Author of the plugin
+msgid "Marie Rigal"
+msgstr "Marie Rigal"
+
+#. Author URI of the plugin
+msgid "https://github.com/marierigal"
+msgstr "https://github.com/marierigal"
+
+#: config/constants.php:12
+msgid "Left Prop"
+msgstr "Pilier gauche"
+
+#: config/constants.php:13
+msgid "Hooker"
+msgstr "Talonneur"
+
+#: config/constants.php:14
+msgid "Right Prop"
+msgstr "Pilier droit"
+
+#: config/constants.php:15 config/constants.php:28
+msgid "Second Rower"
+msgstr "Deuxième ligne"
+
+#: config/constants.php:16
+msgid "Flanker"
+msgstr "Troisième ligne"
+
+#: config/constants.php:17
+msgid "Number 8"
+msgstr "Numéro 8"
+
+#: config/constants.php:18
+msgid "Scrum Half"
+msgstr "Demi de mêlée"
+
+#: config/constants.php:19
+msgid "Fly Half"
+msgstr "Demi d’ouverture"
+
+#: config/constants.php:20 config/constants.php:30
+msgid "Centre"
+msgstr "Centre"
+
+#: config/constants.php:21
+msgid "Winger"
+msgstr "Ailier"
+
+#: config/constants.php:22
+msgid "Full Back"
+msgstr "Arrière"
+
+#: config/constants.php:26
+msgid "Privilege"
+msgstr "Privilège"
+
+#: config/constants.php:27
+msgid "First Rower"
+msgstr "Première ligne"
+
+#: config/constants.php:29
+msgid "Third Rower"
+msgstr "Troisième ligne"
+
+#: config/constants.php:31
+msgid "Green & Black"
+msgstr "Vert & Noir"
+
+#: php/players/player-admin-table.php:15 php/players/player-meta-box.php:25
+msgid "Position"
+msgstr "Poste"
+
+#: php/players/player-meta-box.php:3
+msgid "Last name"
+msgstr "Nom"
+
+#: php/players/player-meta-box.php:14
+msgid "First name"
+msgstr "Prénom"
+
+#: php/players/player-meta-box.php:31
+msgid "Select position"
+msgstr "Sélectionner le poste"
+
+#: php/players/player-meta-box.php:45
+msgid "Height (cm)"
+msgstr "Taille (cm)"
+
+#: php/players/player-meta-box.php:57
+msgid "Weight (kg)"
+msgstr "Poids (kg)"
+
+#: php/players/player-meta-box.php:69
+msgid "Age"
+msgstr "Âge"
+
+#: php/players/player-meta-box.php:81
+msgid "History"
+msgstr "Historique"
+
+#: php/players/player-post-type.php:23
+msgid "Players"
+msgstr "Joueurs"
+
+#: php/players/player-post-type.php:24
+msgid "Player"
+msgstr "Joueur"
+
+#: php/players/player-post-type.php:45
+msgid "Player information"
+msgstr "Information du joueur"
+
+#: php/sponsors/sponsor-admin-table.php:15 php/sponsors/sponsor-meta-box.php:13
+msgid "Engagement level"
+msgstr "Niveau d’engagement"
+
+#: php/sponsors/sponsor-meta-box.php:3
+msgid "Website"
+msgstr "Site web"
+
+#: php/sponsors/sponsor-meta-box.php:20
+msgid "Select engagement level"
+msgstr "Sélectionner le niveau d’engagement"
+
+#: php/sponsors/sponsor-post-type.php:20
+msgid "Sponsors"
+msgstr "Sponsors"
+
+#: php/sponsors/sponsor-post-type.php:21
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: php/sponsors/sponsor-post-type.php:42
+msgid "Sponsor details"
+msgstr "Détails du sponsor"
