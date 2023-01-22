@@ -17,3 +17,14 @@
  * Text Domain:  usm-plugin
  * Domain Path:  /languages
  */
+
+require_once(plugin_dir_path( __FILE__ ) . '/config/constants.php');
+require_once(plugin_dir_path(__FILE__) . '/php/players/player-post-type.php');
+
+function usmp_admin_styles(){
+  global $typenow;
+  if ($typenow == 'usmp_player') {
+    wp_enqueue_style('usmp_meta_box_styles', plugin_dir_url(__FILE__) . '/assets/css/meta-box-styles.css');
+  }
+}
+add_action('admin_print_styles', 'usmp_admin_styles');

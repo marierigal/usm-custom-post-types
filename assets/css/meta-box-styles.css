@@ -1,0 +1,21 @@
+.usmp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.usmp-form__control {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.usmp-form__control label {
+  min-width: 120px;
+}
+
+.usmp-form__control input,
+.usmp-form__control select,
+.usmp-form__control textarea {
+  min-width: 240px;
+}
