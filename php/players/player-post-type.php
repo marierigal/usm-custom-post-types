@@ -28,6 +28,7 @@ function usmp_player() {
       'has_archive' => true,
       'rewrite'     => array('slug' => 'players'),
       'supports'    => array('thumbnail'),
+      'capability_type' => array('usmp_player', 'usmp_players'),
     )
   );
 }

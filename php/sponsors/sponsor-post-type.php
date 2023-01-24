@@ -25,6 +25,7 @@ function usmp_sponsor() {
       'has_archive' => true,
       'rewrite'     => array('slug' => 'sponsors'),
       'supports'    => array('title', 'editor', 'thumbnail'),
+      'capability_type' => array('usmp_sponsor', 'usmp_sponsors'),
     )
   );
 }
