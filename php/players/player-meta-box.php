@@ -27,6 +27,7 @@
       name="usmp_player_position"
       id="usmp_player_position"
       class="usmp-form__control__input"
+      required
     >
       <option value=""><?= __('Select position', 'usm-plugin') ?></option>
 

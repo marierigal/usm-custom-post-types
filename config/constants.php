@@ -22,8 +22,8 @@ set_constant('PLAYER_POSITIONS', array(
 
 set_constant('STAFF_POSITIONS', array(
   'manager'         => __('Manager', 'usm-plugin'),          // Manager
-  'backs-coach'     => __('Backs Coach', 'usm-plugin'),      // Entraîneur des arrières
   'forwards-coach'  => __('Forwards Coach', 'usm-plugin'),   // Entraîneur des avants
+  'backs-coach'     => __('Backs Coach', 'usm-plugin'),      // Entraîneur des arrières
   'fitness-trainer' => __('Fitness Trainer', 'usm-plugin'),  // Préparateur physique
   'healer'          => __('Healer', 'usm-plugin'),           // Soigneur
 ));
