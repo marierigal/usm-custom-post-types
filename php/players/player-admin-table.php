@@ -9,7 +9,7 @@ function usmp_player_manage_columns( $columns )
     // unset the 'date' column
     unset( $columns['date'] );
     // unset any column when necessary
-    // unset( $columns['comments'] );
+    unset( $columns['stats'] );
 
     // add your column as new array element and give it table header text
     $columns['usmp_player_position'] = __('Position', 'usm-plugin');
