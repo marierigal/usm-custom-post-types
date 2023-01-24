@@ -9,17 +9,23 @@ function set_constant($constant_name, $value) {
 }
 
 set_constant('PLAYER_POSITIONS', array(
-  'left-prop'    => __('Left Prop', 'usm-plugin'),     // Pilier gauche
+  'prop'         => __('Prop', 'usm-plugin'),          // Pilier
   'hooker'       => __('Hooker', 'usm-plugin'),        // Talonneur
-  'right-prop'   => __('Right Prop', 'usm-plugin'),    // Pilier droit
   'second-rower' => __('Second Rower', 'usm-plugin'),  // Deuxième ligne
   'flanker'      => __('Flanker', 'usm-plugin'),       // Troisième ligne
-  'number-8'     => __('Number 8', 'usm-plugin'),      // Numéro huit
   'scrum-half'   => __('Scrum Half', 'usm-plugin'),    // Demi de mêlée
   'fly-half'     => __('Fly Half', 'usm-plugin'),      // Demi d'ouverture
   'centre'       => __('Centre', 'usm-plugin'),        // Centre
   'winger'       => __('Winger', 'usm-plugin'),        // Ailier
   'full-back'    => __('Full Back', 'usm-plugin'),     // Arrière
+));
+
+set_constant('STAFF_POSITIONS', array(
+  'manager'         => __('Manager', 'usm-plugin'),          // Manager
+  'backs-coach'     => __('Backs Coach', 'usm-plugin'),      // Entraîneur des arrières
+  'forwards-coach'  => __('Forwards Coach', 'usm-plugin'),   // Entraîneur des avants
+  'fitness-trainer' => __('Fitness Trainer', 'usm-plugin'),  // Préparateur physique
+  'healer'          => __('Healer', 'usm-plugin'),           // Soigneur
 ));
 
 set_constant('SPONSOR_ENGAGEMENT_LEVELS', array(

@@ -3,13 +3,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: USM Plugin 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/usm-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-plugin-usm\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-01-22T22:30:15+00:00\n"
+"POT-Creation-Date: 2023-01-24T18:02:12+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: usm-plugin\n"
@@ -31,7 +31,7 @@ msgid "https://github.com/marierigal"
 msgstr ""
 
 #: config/constants.php:12
-msgid "Left Prop"
+msgid "Prop"
 msgstr ""
 
 #: config/constants.php:13
@@ -39,56 +39,68 @@ msgid "Hooker"
 msgstr ""
 
 #: config/constants.php:14
-msgid "Right Prop"
-msgstr ""
-
-#: config/constants.php:15
-#: config/constants.php:28
+#: config/constants.php:34
 msgid "Second Rower"
 msgstr ""
 
-#: config/constants.php:16
+#: config/constants.php:15
 msgid "Flanker"
 msgstr ""
 
-#: config/constants.php:17
-msgid "Number 8"
-msgstr ""
-
-#: config/constants.php:18
+#: config/constants.php:16
 msgid "Scrum Half"
 msgstr ""
 
-#: config/constants.php:19
+#: config/constants.php:17
 msgid "Fly Half"
 msgstr ""
 
-#: config/constants.php:20
-#: config/constants.php:30
+#: config/constants.php:18
+#: config/constants.php:36
 msgid "Centre"
 msgstr ""
 
-#: config/constants.php:21
+#: config/constants.php:19
 msgid "Winger"
 msgstr ""
 
-#: config/constants.php:22
+#: config/constants.php:20
 msgid "Full Back"
 msgstr ""
 
+#: config/constants.php:24
+msgid "Manager"
+msgstr ""
+
+#: config/constants.php:25
+msgid "Backs Coach"
+msgstr ""
+
 #: config/constants.php:26
-msgid "Privilege"
+msgid "Forwards Coach"
 msgstr ""
 
 #: config/constants.php:27
+msgid "Fitness Trainer"
+msgstr ""
+
+#: config/constants.php:28
+msgid "Healer"
+msgstr ""
+
+#: config/constants.php:32
+msgid "Privilege"
+msgstr ""
+
+#: config/constants.php:33
 msgid "First Rower"
 msgstr ""
 
-#: config/constants.php:29
+#: config/constants.php:35
 msgid "Third Rower"
 msgstr ""
 
-#: config/constants.php:31
+#: config/constants.php:37
 msgid "Green & Black"
 msgstr ""
 
@@ -109,19 +121,28 @@ msgstr ""
 msgid "Select position"
 msgstr ""
 
-#: php/players/player-meta-box.php:45
+#: php/players/player-meta-box.php:33
+#: php/players/player-post-type.php:24
+msgid "Player"
+msgstr ""
+
+#: php/players/player-meta-box.php:44
+msgid "Staff"
+msgstr ""
+
+#: php/players/player-meta-box.php:58
 msgid "Height (cm)"
 msgstr ""
 
-#: php/players/player-meta-box.php:57
+#: php/players/player-meta-box.php:70
 msgid "Weight (kg)"
 msgstr ""
 
-#: php/players/player-meta-box.php:69
+#: php/players/player-meta-box.php:82
 msgid "Age"
 msgstr ""
 
-#: php/players/player-meta-box.php:81
+#: php/players/player-meta-box.php:94
 msgid "History"
 msgstr ""
 
@@ -129,11 +150,7 @@ msgstr ""
 msgid "Players"
 msgstr ""
 
-#: php/players/player-post-type.php:24
-msgid "Player"
-msgstr ""
-
-#: php/players/player-post-type.php:45
+#: php/players/player-post-type.php:46
 msgid "Player information"
 msgstr ""
 
@@ -158,6 +175,6 @@ msgstr ""
 msgid "Sponsor"
 msgstr ""
 
-#: php/sponsors/sponsor-post-type.php:42
+#: php/sponsors/sponsor-post-type.php:43
 msgid "Sponsor details"
 msgstr ""

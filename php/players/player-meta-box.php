@@ -30,14 +30,27 @@
     >
       <option value=""><?= __('Select position', 'usm-plugin') ?></option>
 
-      <?php foreach ($positions as $position_key => $position_name) : ?>
-        <option
-          value="<?= $position_key ?>"
-          <?php if (isset($meta_value['usmp_player_position']) && $meta_value['usmp_player_position'][0] === $position_key) echo 'selected' ?>
-        >
-          <?= $position_name ?>
-        </option>
-      <?php endforeach; ?>
+      <optgroup label="<?= __('Player', 'usm-plugin') ?>">
+        <?php foreach ($player_positions as $position_key => $position_name) : ?>
+          <option
+            value="<?= $position_key ?>"
+            <?php if (isset($meta_value['usmp_player_position']) && $meta_value['usmp_player_position'][0] === $position_key) echo 'selected' ?>
+          >
+            <?= $position_name ?>
+          </option>
+        <?php endforeach; ?>
+      </optgroup>
+
+      <optgroup label="<?= __('Staff', 'usm-plugin') ?>">
+        <?php foreach ($staff_positions as $position_key => $position_name) : ?>
+          <option
+            value="<?= $position_key ?>"
+            <?php if (isset($meta_value['usmp_player_position']) && $meta_value['usmp_player_position'][0] === $position_key) echo 'selected' ?>
+          >
+            <?= $position_name ?>
+          </option>
+        <?php endforeach; ?>
+      </optgroup>
     </select>
   </div>
 
