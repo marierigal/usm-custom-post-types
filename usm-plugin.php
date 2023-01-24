@@ -18,14 +18,37 @@
  * Domain Path:  /languages
  */
 
-require_once(plugin_dir_path( __FILE__ ) . '/config/constants.php');
+require_once(plugin_dir_path(__FILE__) . '/config/constants.php');
 require_once(plugin_dir_path(__FILE__) . '/php/players/player-post-type.php');
 require_once(plugin_dir_path(__FILE__) . '/php/sponsors/sponsor-post-type.php');
 
-function usmp_admin_styles(){
+// Add inline CSS in the admin head with the style tag
+function usmp_admin_styles() {
   global $typenow;
   if ($typenow == 'usmp_player' || $typenow == 'usmp_sponsor') {
-    wp_enqueue_style('usmp_meta_box_styles', plugin_dir_url(__FILE__) . '/assets/css/meta-box-styles.css');
+    echo '<style type="text/css" id="usmp_admin_styles">
+.usmp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.usmp-form__control {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.usmp-form__control label {
+  min-width: 140px;
+}
+
+.usmp-form__control input,
+.usmp-form__control select,
+.usmp-form__control textarea {
+  min-width: 280px;
+}
+</style>';
   }
 }
-add_action('admin_print_styles', 'usmp_admin_styles');
+add_action( 'admin_head', 'usmp_admin_styles' );
