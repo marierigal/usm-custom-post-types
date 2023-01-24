@@ -11,7 +11,7 @@
  *   - position
  *   - height
  *   - weight
- *   - age
+ *   - birth year
  *   - history
  *   - thumbnail
  */
@@ -94,8 +94,8 @@ function usmp_player_meta_save($post_id) {
     update_post_meta($post_id, 'usmp_player_weight', $_POST['usmp_player_weight']);
   }
 
-  if (isset($_POST['usmp_player_age'])) {
-    update_post_meta($post_id, 'usmp_player_age', $_POST['usmp_player_age']);
+  if (isset($_POST['usmp_player_birth_year'])) {
+    update_post_meta($post_id, 'usmp_player_birth_year', $_POST['usmp_player_birth_year']);
   }
 
   if (isset($_POST['usmp_player_history'])) {

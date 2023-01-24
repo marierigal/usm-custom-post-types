@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: USM Plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-plugin-"
 "usm\n"
-"POT-Creation-Date: 2023-01-24T18:02:12+00:00\n"
-"PO-Revision-Date: 2023-01-24 19:02+0100\n"
+"POT-Creation-Date: 2023-01-24T18:11:52+00:00\n"
+"PO-Revision-Date: 2023-01-24 19:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -138,10 +138,10 @@ msgid "Weight (kg)"
 msgstr "Poids (kg)"
 
 #: php/players/player-meta-box.php:82
-msgid "Age"
-msgstr "Âge"
+msgid "Birth year"
+msgstr "Année de naissance"
 
-#: php/players/player-meta-box.php:94
+#: php/players/player-meta-box.php:95
 msgid "History"
 msgstr "Historique"
 
@@ -149,7 +149,7 @@ msgstr "Historique"
 msgid "Players"
 msgstr "Joueurs"
 
-#: php/players/player-post-type.php:46
+#: php/players/player-post-type.php:47
 msgid "Player information"
 msgstr "Information du joueur"
 
@@ -176,6 +176,9 @@ msgstr "Sponsor"
 #: php/sponsors/sponsor-post-type.php:43
 msgid "Sponsor details"
 msgstr "Détails du sponsor"
+
+#~ msgid "Age"
+#~ msgstr "Âge"
 
 #~ msgid "Right Prop"
 #~ msgstr "Pilier droit"

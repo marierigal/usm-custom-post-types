@@ -79,14 +79,15 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_age"><?= __('Age', 'usm-plugin') ?></label>
+    <label for="usmp_player_birth_year"><?= __('Birth year', 'usm-plugin') ?></label>
     <input
-      name="usmp_player_age"
-      id="usmp_player_age"
+      name="usmp_player_birth_year"
+      id="usmp_player_birth_year"
       type="number"
-      min="0"
+      min="1900"
+      max="<?= date('Y') ?>"
       step="1"
-      value="<?php if (isset($meta_value['usmp_player_age'])) echo $meta_value['usmp_player_age'][0]; ?>"
+      value="<?php if (isset($meta_value['usmp_player_birth_year'])) echo $meta_value['usmp_player_birth_year'][0]; ?>"
     />
   </div>
 
