@@ -36,7 +36,7 @@ add_action('init', 'usmp_player');
 
 function usmp_player_html($post) {
   $meta_value = get_post_meta($post->ID);
-  $players_positions = USMP_PLAYER_POSITIONS;
+  $player_positions = USMP_PLAYER_POSITIONS;
   $staff_positions = USMP_STAFF_POSITIONS;
   include('player-meta-box.php');
 }
