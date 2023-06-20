@@ -59,7 +59,7 @@ function usmp_sponsor_sort_custom_columns_query( $query )
     }
 }
 
-if ( is_admin() && 'edit.php' == $pagenow && 'usmp_sponsor' == $_GET['post_type'] ) {
+if ( is_admin() && 'edit.php' == $pagenow && 'usmp_sponsor' == ($_GET['post_type'] ?? '') ) {
 
     // manage colunms
     add_filter( 'manage_usmp_sponsor_posts_columns', 'usmp_sponsor_manage_columns' );
