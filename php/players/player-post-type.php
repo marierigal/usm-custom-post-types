@@ -20,8 +20,8 @@ function usmp_player() {
   register_post_type('usmp_player',
     array(
       'labels' => array(
-        'name'          => __('Players', 'usm-plugin'),
-        'singular_name' => __('Player',  'usm-plugin'),
+        'name'          => __('Joueurs', 'usm-plugin'),
+        'singular_name' => __('Joueur',  'usm-plugin'),
       ),
       'menu_icon'   => 'dashicons-groups',
       'public'      => true,
@@ -44,10 +44,10 @@ function usmp_player_html($post) {
 
 function usmp_player_meta_box() {
   add_meta_box(
-    'usmp_player_meta_box',       // Unique ID
-    __('Player information', 'usm-plugin'), // Box title
-    'usmp_player_html',              // Content callback, must be of type callable
-    'usmp_player'                         // Post type
+    'usmp_player_meta_box',                     // Unique ID
+    __('Informations du joueur', 'usm-plugin'), // Box title
+    'usmp_player_html',                         // Content callback, must be of type callable
+    'usmp_player'                               // Post type
   );
 }
 add_action( 'add_meta_boxes', 'usmp_player_meta_box' );

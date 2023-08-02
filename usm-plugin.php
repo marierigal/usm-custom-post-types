@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:  USM Plugin
  * Author:       Marie Rigal
- * Description:  Custom post types for the USM website
+ * Description:  Types d’article personnalisé pour le site web USM
  * Author URI:   https://github.com/marierigal
  * Version:      1.1.0
  * License:      GNU General Public License v3

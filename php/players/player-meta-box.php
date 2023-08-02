@@ -1,6 +1,6 @@
 <div class="usmp-form">
   <div class="usmp-form__control">
-    <label for="usmp_player_last_name"><?= __('Last name', 'usm-plugin') ?></label>
+    <label for="usmp_player_last_name"><?= __('Nom', 'usm-plugin') ?></label>
     <input
       name="usmp_player_last_name"
       id="usmp_player_last_name"
@@ -11,7 +11,7 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_first_name"><?= __('First name', 'usm-plugin') ?></label>
+    <label for="usmp_player_first_name"><?= __('Prénom', 'usm-plugin') ?></label>
     <input
       name="usmp_player_first_name"
       id="usmp_player_first_name"
@@ -22,16 +22,16 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_position"><?= __('Position', 'usm-plugin') ?></label>
+    <label for="usmp_player_position"><?= __('Poste', 'usm-plugin') ?></label>
     <select
       name="usmp_player_position"
       id="usmp_player_position"
       class="usmp-form__control__input"
       required
     >
-      <option value=""><?= __('Select position', 'usm-plugin') ?></option>
+      <option value=""><?= __('Choisir un poste', 'usm-plugin') ?></option>
 
-      <optgroup label="<?= __('Player', 'usm-plugin') ?>">
+      <optgroup label="<?= __('Joueur', 'usm-plugin') ?>">
         <?php foreach ($player_positions as $position_key => $position_name) : ?>
           <option
             value="<?= $position_key ?>"
@@ -56,7 +56,7 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_height"><?= __('Height (cm)', 'usm-plugin') ?></label>
+    <label for="usmp_player_height"><?= __('Taille (cm)', 'usm-plugin') ?></label>
     <input
       name="usmp_player_height"
       id="usmp_player_height"
@@ -68,7 +68,7 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_weight"><?= __('Weight (kg)', 'usm-plugin') ?></label>
+    <label for="usmp_player_weight"><?= __('Poids (kg)', 'usm-plugin') ?></label>
     <input
       name="usmp_player_weight"
       id="usmp_player_weight"
@@ -80,7 +80,7 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_birth_year"><?= __('Birth year', 'usm-plugin') ?></label>
+    <label for="usmp_player_birth_year"><?= __('Année de naissance', 'usm-plugin') ?></label>
     <input
       name="usmp_player_birth_year"
       id="usmp_player_birth_year"
@@ -93,7 +93,7 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_player_history"><?= __('History', 'usm-plugin') ?></label>
+    <label for="usmp_player_history"><?= __('Historique', 'usm-plugin') ?></label>
     <textarea
       name="usmp_player_history"
       id="usmp_player_history"

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-08-02T15:32:36+00:00\n"
+"POT-Creation-Date: 2023-08-02T16:50:37+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: usm-plugin\n"
@@ -19,7 +19,7 @@ msgid "USM Plugin"
 msgstr ""
 
 #. Description of the plugin
-msgid "Custom post types for the USM website"
+msgid "Types d’article personnalisé pour le site web USM"
 msgstr ""
 
 #. Author of the plugin
@@ -31,43 +31,48 @@ msgid "https://github.com/marierigal"
 msgstr ""
 
 #: config/constants.php:12
-msgid "Prop"
+msgid "Pilier"
 msgstr ""
 
 #: config/constants.php:13
-msgid "Hooker"
+msgid "Talonneur"
 msgstr ""
 
 #: config/constants.php:14
+#: config/constants.php:33
 #: config/constants.php:58
-msgid "Second Rower"
+msgid "Deuxième ligne"
 msgstr ""
 
 #: config/constants.php:15
-msgid "Flanker"
+#: config/constants.php:34
+#: config/constants.php:59
+msgid "Troisième ligne"
 msgstr ""
 
 #: config/constants.php:16
-msgid "Scrum Half"
+#: config/constants.php:35
+msgid "Demi de mêlée"
 msgstr ""
 
 #: config/constants.php:17
-msgid "Fly Half"
+#: config/constants.php:36
+msgid "Demi d'ouverture"
 msgstr ""
 
 #: config/constants.php:18
 #: config/constants.php:37
-#: config/constants.php:60
 msgid "Centre"
 msgstr ""
 
 #: config/constants.php:19
 #: config/constants.php:38
-msgid "Winger"
+msgid "Ailier"
 msgstr ""
 
 #: config/constants.php:20
-msgid "Full Back"
+#: config/constants.php:39
+msgid "Arrière"
 msgstr ""
 
 #: config/constants.php:24
@@ -75,43 +80,24 @@ msgid "Manager"
 msgstr ""
 
 #: config/constants.php:25
-msgid "Forwards Coach"
+msgid "Entraîneur des avants"
 msgstr ""
 
 #: config/constants.php:26
-msgid "Backs Coach"
+msgid "Entraîneur des arrières"
 msgstr ""
 
 #: config/constants.php:27
-msgid "Fitness Trainer"
+msgid "Préparateur physique"
 msgstr ""
 
 #: config/constants.php:28
-msgid "Healer"
+msgid "Soigneur"
 msgstr ""
 
 #: config/constants.php:32
-msgid "First row"
-msgstr ""
-
-#: config/constants.php:33
-msgid "Second row"
-msgstr ""
-
-#: config/constants.php:34
-msgid "Third row"
-msgstr ""
-
-#: config/constants.php:35
-msgid "Scrum half"
-msgstr ""
-
-#: config/constants.php:36
-msgid "Fly half"
-msgstr ""
-
-#: config/constants.php:39
-msgid "Full back"
+#: config/constants.php:57
+msgid "Première ligne"
 msgstr ""
 
 #: config/constants.php:40
@@ -120,78 +106,74 @@ msgid "Staff"
 msgstr ""
 
 #: config/constants.php:56
-msgid "Privilege"
+msgid "Privilège"
 msgstr ""
 
-#: config/constants.php:57
-msgid "First Rower"
-msgstr ""
-
-#: config/constants.php:59
-msgid "Third Rower"
+#: config/constants.php:60
+msgid "3/4 Centre"
 msgstr ""
 
 #: config/constants.php:61
-msgid "Green & Black"
+msgid "Vert & Noir"
 msgstr ""
 
 #: php/players/player-admin-table.php:15
 #: php/players/player-meta-box.php:25
-msgid "Position"
+msgid "Poste"
 msgstr ""
 
 #: php/players/player-meta-box.php:3
-msgid "Last name"
+msgid "Nom"
 msgstr ""
 
 #: php/players/player-meta-box.php:14
-msgid "First name"
+msgid "Prénom"
 msgstr ""
 
 #: php/players/player-meta-box.php:32
-msgid "Select position"
+msgid "Choisir un poste"
 msgstr ""
 
 #: php/players/player-meta-box.php:34
 #: php/players/player-post-type.php:24
-msgid "Player"
+msgid "Joueur"
 msgstr ""
 
 #: php/players/player-meta-box.php:59
-msgid "Height (cm)"
+msgid "Taille (cm)"
 msgstr ""
 
 #: php/players/player-meta-box.php:71
-msgid "Weight (kg)"
+msgid "Poids (kg)"
 msgstr ""
 
 #: php/players/player-meta-box.php:83
-msgid "Birth year"
+msgid "Année de naissance"
 msgstr ""
 
 #: php/players/player-meta-box.php:96
-msgid "History"
+msgid "Historique"
 msgstr ""
 
 #: php/players/player-post-type.php:23
-msgid "Players"
+msgid "Joueurs"
 msgstr ""
 
 #: php/players/player-post-type.php:48
-msgid "Player information"
+msgid "Informations du joueur"
 msgstr ""
 
 #: php/sponsors/sponsor-admin-table.php:15
 #: php/sponsors/sponsor-meta-box.php:13
-msgid "Engagement level"
+msgid "Niveau d'engagement"
 msgstr ""
 
 #: php/sponsors/sponsor-meta-box.php:3
-msgid "Website"
+msgid "Site web"
 msgstr ""
 
 #: php/sponsors/sponsor-meta-box.php:20
-msgid "Select engagement level"
+msgid "Choisir un niveau d'engagement"
 msgstr ""
 
 #: php/sponsors/sponsor-post-type.php:20
@@ -203,5 +185,5 @@ msgid "Sponsor"
 msgstr ""
 
 #: php/sponsors/sponsor-post-type.php:44
-msgid "Sponsor details"
+msgid "Informations du sponsor"
 msgstr ""

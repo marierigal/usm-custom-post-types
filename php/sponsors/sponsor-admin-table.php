@@ -12,7 +12,7 @@ function usmp_sponsor_manage_columns( $columns )
     unset( $columns['stats'] );
 
     // add your column as new array element and give it table header text
-    $columns['usmp_sponsor_engagement_level'] = __('Engagement level', 'usm-plugin');
+    $columns['usmp_sponsor_engagement_level'] = __('Niveau d\'engagement', 'usm-plugin');
 
     $columns['date'] = $date; // set the 'date' column again, after the custom column
 

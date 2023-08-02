@@ -1,6 +1,6 @@
 <div class="usmp-form">
   <div class="usmp-form__control">
-    <label for="usmp_sponsor_website"><?= __('Website', 'usm-plugin') ?></label>
+    <label for="usmp_sponsor_website"><?= __('Site web', 'usm-plugin') ?></label>
     <input
       name="usmp_sponsor_website"
       id="usmp_sponsor_website"
@@ -10,14 +10,14 @@
   </div>
 
   <div class="usmp-form__control">
-    <label for="usmp_sponsor_engagement_level"><?= __('Engagement level', 'usm-plugin') ?></label>
+    <label for="usmp_sponsor_engagement_level"><?= __('Niveau d\'engagement', 'usm-plugin') ?></label>
     <select
       name="usmp_sponsor_engagement_level"
       id="usmp_sponsor_engagement_level"
       class="usmp-form__control__input"
       required
     >
-      <option value=""><?= __('Select engagement level', 'usm-plugin') ?></option>
+      <option value=""><?= __('Choisir un niveau d\'engagement', 'usm-plugin') ?></option>
 
       <?php foreach ($engagement_levels as $engagement_level_key => $engagement_level_name) : ?>
         <option

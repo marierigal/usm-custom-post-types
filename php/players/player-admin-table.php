@@ -12,7 +12,7 @@ function usmp_player_manage_columns( $columns )
     unset( $columns['stats'] );
 
     // add your column as new array element and give it table header text
-    $columns['usmp_player_position'] = __('Position', 'usm-plugin');
+    $columns['usmp_player_position'] = __('Poste', 'usm-plugin');
 
     $columns['date'] = $date; // set the 'date' column again, after the custom column
 

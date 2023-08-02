@@ -9,34 +9,34 @@ function usm_set_constant($constant_name, $value) {
 }
 
 usm_set_constant('PLAYER_POSITIONS', array(
-  'prop'         => __('Prop', 'usm-plugin'),          // Pilier
-  'hooker'       => __('Hooker', 'usm-plugin'),        // Talonneur
-  'second-rower' => __('Second Rower', 'usm-plugin'),  // Deuxième ligne
-  'flanker'      => __('Flanker', 'usm-plugin'),       // Troisième ligne
-  'scrum-half'   => __('Scrum Half', 'usm-plugin'),    // Demi de mêlée
-  'fly-half'     => __('Fly Half', 'usm-plugin'),      // Demi d'ouverture
-  'centre'       => __('Centre', 'usm-plugin'),        // Centre
-  'winger'       => __('Winger', 'usm-plugin'),        // Ailier
-  'full-back'    => __('Full Back', 'usm-plugin'),     // Arrière
+  'prop'         => __('Pilier', 'usm-plugin'),
+  'hooker'       => __('Talonneur', 'usm-plugin'),
+  'second-rower' => __('Deuxième ligne', 'usm-plugin'),
+  'flanker'      => __('Troisième ligne', 'usm-plugin'),
+  'scrum-half'   => __('Demi de mêlée', 'usm-plugin'),
+  'fly-half'     => __('Demi d\'ouverture', 'usm-plugin'),
+  'centre'       => __('Centre', 'usm-plugin'),
+  'winger'       => __('Ailier', 'usm-plugin'),
+  'full-back'    => __('Arrière', 'usm-plugin'),
 ));
 
 usm_set_constant('STAFF_POSITIONS', array(
-  'manager'         => __('Manager', 'usm-plugin'),          // Manager
-  'forwards-coach'  => __('Forwards Coach', 'usm-plugin'),   // Entraîneur des avants
-  'backs-coach'     => __('Backs Coach', 'usm-plugin'),      // Entraîneur des arrières
-  'fitness-trainer' => __('Fitness Trainer', 'usm-plugin'),  // Préparateur physique
-  'healer'          => __('Healer', 'usm-plugin'),           // Soigneur
+  'manager'         => __('Manager', 'usm-plugin'),
+  'forwards-coach'  => __('Entraîneur des avants', 'usm-plugin'),
+  'backs-coach'     => __('Entraîneur des arrières', 'usm-plugin'),
+  'fitness-trainer' => __('Préparateur physique', 'usm-plugin'),
+  'healer'          => __('Soigneur', 'usm-plugin')
 ));
 
 usm_set_constant('PLAYER_CATEGORIES', array(
-  'first-row'  => __('First row', 'usm-plugin'),
-  'second-row' => __('Second row', 'usm-plugin'),
-  'third-row'  => __('Third row', 'usm-plugin'),
-  'scrum-half' => __('Scrum half', 'usm-plugin'),
-  'fly-half'   => __('Fly half', 'usm-plugin'),
+  'first-row'  => __('Première ligne', 'usm-plugin'),
+  'second-row' => __('Deuxième ligne', 'usm-plugin'),
+  'third-row'  => __('Troisième ligne', 'usm-plugin'),
+  'scrum-half' => __('Demi de mêlée', 'usm-plugin'),
+  'fly-half'   => __('Demi d\'ouverture', 'usm-plugin'),
   'centre'     => __('Centre', 'usm-plugin'),
-  'winger'     => __('Winger', 'usm-plugin'),
-  'full-back'  => __('Full back', 'usm-plugin'),
+  'winger'     => __('Ailier', 'usm-plugin'),
+  'full-back'  => __('Arrière', 'usm-plugin'),
   'staff'      => __('Staff', 'usm-plugin'),
 ));
 
@@ -53,10 +53,10 @@ usm_set_constant('PLAYER_CATEGORY_POSITION_MAP', array(
 ));
 
 usm_set_constant('SPONSOR_ENGAGEMENT_LEVELS', array(
-  'privilege'        => __('Privilege', 'usm-plugin'),      // Privilège
-  'first-rower'      => __('First Rower', 'usm-plugin'),    // 1ère Ligne
-  'second-rower'     => __('Second Rower', 'usm-plugin'),   // 2ème Ligne
-  'third-rower'      => __('Third Rower', 'usm-plugin'),    // 3ème Ligne
-  'centre'           => __('Centre', 'usm-plugin'),         // 3/4 Centre
-  'green-and-black'  => __('Green & Black', 'usm-plugin'),  // Vert & Noir
+  'privilege'        => __('Privilège', 'usm-plugin'),
+  'first-rower'      => __('Première ligne', 'usm-plugin'),
+  'second-rower'     => __('Deuxième ligne', 'usm-plugin'),
+  'third-rower'      => __('Troisième ligne', 'usm-plugin'),
+  'centre'           => __('3/4 Centre', 'usm-plugin'),
+  'green-and-black'  => __('Vert & Noir', 'usm-plugin'),
 ));

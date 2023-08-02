@@ -40,10 +40,10 @@ function usmp_sponsor_html($post) {
 
 function usmp_sponsor_meta_box() {
   add_meta_box(
-    'usmp_sponsor_meta_box',        // Unique ID
-    __('Sponsor details', 'usm-plugin'),  // Box title
-    'usmp_sponsor_html',            // Content callback, must be of type callable
-    'usmp_sponsor'                      // Post type
+    'usmp_sponsor_meta_box',                      // Unique ID
+    __('Informations du sponsor', 'usm-plugin'),  // Box title
+    'usmp_sponsor_html',                          // Content callback, must be of type callable
+    'usmp_sponsor'                                // Post type
   );
 }
 add_action( 'add_meta_boxes', 'usmp_sponsor_meta_box' );
