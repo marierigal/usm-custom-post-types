@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v3.
 msgid ""
 msgstr ""
-"Project-Id-Version: USM Plugin 1.0.0\n"
+"Project-Id-Version: USM Plugin 1.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-plugin-usm\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-01-24T18:11:52+00:00\n"
+"POT-Creation-Date: 2023-08-02T15:32:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: usm-plugin\n"
@@ -39,7 +39,7 @@ msgid "Hooker"
 msgstr ""
 
 #: config/constants.php:14
-#: config/constants.php:34
+#: config/constants.php:58
 msgid "Second Rower"
 msgstr ""
 
@@ -56,11 +56,13 @@ msgid "Fly Half"
 msgstr ""
 
 #: config/constants.php:18
-#: config/constants.php:36
+#: config/constants.php:37
+#: config/constants.php:60
 msgid "Centre"
 msgstr ""
 
 #: config/constants.php:19
+#: config/constants.php:38
 msgid "Winger"
 msgstr ""
 
@@ -73,11 +75,11 @@ msgid "Manager"
 msgstr ""
 
 #: config/constants.php:25
-msgid "Backs Coach"
+msgid "Forwards Coach"
 msgstr ""
 
 #: config/constants.php:26
-msgid "Forwards Coach"
+msgid "Backs Coach"
 msgstr ""
 
 #: config/constants.php:27
@@ -89,18 +91,47 @@ msgid "Healer"
 msgstr ""
 
 #: config/constants.php:32
-msgid "Privilege"
+msgid "First row"
 msgstr ""
 
 #: config/constants.php:33
-msgid "First Rower"
+msgid "Second row"
+msgstr ""
+
+#: config/constants.php:34
+msgid "Third row"
 msgstr ""
 
 #: config/constants.php:35
+msgid "Scrum half"
+msgstr ""
+
+#: config/constants.php:36
+msgid "Fly half"
+msgstr ""
+
+#: config/constants.php:39
+msgid "Full back"
+msgstr ""
+
+#: config/constants.php:40
+#: php/players/player-meta-box.php:45
+msgid "Staff"
+msgstr ""
+
+#: config/constants.php:56
+msgid "Privilege"
+msgstr ""
+
+#: config/constants.php:57
+msgid "First Rower"
+msgstr ""
+
+#: config/constants.php:59
 msgid "Third Rower"
 msgstr ""
 
-#: config/constants.php:37
+#: config/constants.php:61
 msgid "Green & Black"
 msgstr ""
 
@@ -117,32 +148,28 @@ msgstr ""
 msgid "First name"
 msgstr ""
 
-#: php/players/player-meta-box.php:31
+#: php/players/player-meta-box.php:32
 msgid "Select position"
 msgstr ""
 
-#: php/players/player-meta-box.php:33
+#: php/players/player-meta-box.php:34
 #: php/players/player-post-type.php:24
 msgid "Player"
 msgstr ""
 
-#: php/players/player-meta-box.php:44
-msgid "Staff"
-msgstr ""
-
-#: php/players/player-meta-box.php:58
+#: php/players/player-meta-box.php:59
 msgid "Height (cm)"
 msgstr ""
 
-#: php/players/player-meta-box.php:70
+#: php/players/player-meta-box.php:71
 msgid "Weight (kg)"
 msgstr ""
 
-#: php/players/player-meta-box.php:82
+#: php/players/player-meta-box.php:83
 msgid "Birth year"
 msgstr ""
 
-#: php/players/player-meta-box.php:95
+#: php/players/player-meta-box.php:96
 msgid "History"
 msgstr ""
 
@@ -150,7 +177,7 @@ msgstr ""
 msgid "Players"
 msgstr ""
 
-#: php/players/player-post-type.php:47
+#: php/players/player-post-type.php:48
 msgid "Player information"
 msgstr ""
 
@@ -175,6 +202,6 @@ msgstr ""
 msgid "Sponsor"
 msgstr ""
 
-#: php/sponsors/sponsor-post-type.php:43
+#: php/sponsors/sponsor-post-type.php:44
 msgid "Sponsor details"
 msgstr ""

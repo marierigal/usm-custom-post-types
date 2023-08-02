@@ -30,7 +30,7 @@ function usmp_player_populate_custom_columns( $column, $post_id )
     switch ( $column ) {
         case 'usmp_player_position':
             $position = get_post_meta($post_id, 'usmp_player_position', true);
-            echo USMP_PLAYER_POSITIONS[$position] ?? '-';
+            echo USM_PLAYER_POSITIONS[$position] ?? USM_STAFF_POSITIONS[$position] ?? '-';
             break;
         default:
             break;

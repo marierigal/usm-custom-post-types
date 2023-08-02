@@ -34,7 +34,7 @@ add_action('init', 'usmp_sponsor');
 
 function usmp_sponsor_html($post) {
   $meta_value = get_post_meta($post->ID);
-  $engagement_levels = USMP_SPONSOR_ENGAGEMENT_LEVELS;
+  $engagement_levels = USM_SPONSOR_ENGAGEMENT_LEVELS;
   include('sponsor-meta-box.php');
 }
 
