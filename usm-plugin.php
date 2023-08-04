@@ -11,7 +11,7 @@
  * Author:       Marie Rigal
  * Description:  Types d’article personnalisé pour le site web USM
  * Author URI:   https://github.com/marierigal
- * Version:      1.3.0
+ * Version:      2.0.0
  * License:      GNU General Public License v3
  * License URI:  http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:  usm-plugin
