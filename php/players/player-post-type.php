@@ -25,6 +25,7 @@ function usmp_player() {
       ),
       'menu_icon'   => 'dashicons-groups',
       'public'      => true,
+      'publicly_queryable' => false,
       'show_in_rest' => true,
       'has_archive' => true,
       'rewrite'     => array('slug' => 'players'),

@@ -22,6 +22,7 @@ function usmp_sponsor() {
       ),
       'menu_icon'   => 'dashicons-money-alt',
       'public'      => true,
+      'publicly_queryable' => false,
       'show_in_rest' => true,
       'has_archive' => true,
       'rewrite'     => array('slug' => 'sponsors'),
