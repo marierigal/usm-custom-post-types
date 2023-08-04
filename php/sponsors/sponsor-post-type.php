@@ -20,7 +20,7 @@ function usmp_sponsor() {
         'name'          => __('Sponsors', 'usm-plugin'),
         'singular_name' => __('Sponsor',  'usm-plugin'),
       ),
-      'menu_icon'   => 'dashicons-businessman',
+      'menu_icon'   => 'dashicons-money-alt',
       'public'      => true,
       'show_in_rest' => true,
       'has_archive' => true,
