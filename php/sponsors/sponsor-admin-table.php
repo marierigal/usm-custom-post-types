@@ -30,7 +30,7 @@ function usmp_sponsor_populate_custom_columns( $column, $post_id )
     switch ( $column ) {
         case 'usmp_sponsor_engagement_level':
             $position = get_post_meta($post_id, 'usmp_sponsor_engagement_level', true);
-            echo USM_SPONSOR_ENGAGEMENT_LEVELS[$position];
+            echo USM_SPONSOR_ENGAGEMENT_LEVELS[$position] ?? '-';
             break;
         default:
             break;
